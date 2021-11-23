@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Film</title>
+</head>
+<body id="bod">
+
+    <header>
+        <h1>Cinéma Gaumont-Pathé</h1>
+    </header>
+    
+    <div class="container">
+
+        <div class="masque" id="ms" style="display:none;">
+    <div class="pop" id="pop">
+        <div><button onclick='fermer()' class='fermer'>X</button></div>
+    </div>
+</div>
+     
+      <div class="aff" onclick="pop('Dune','res_Dune')">
+          <img class="aff_img" src="Images/Dune.jpg" />
+          <p class="titre">Dune</p>
+          <div class="res" id="res_Dune">
+            En l'an 1091, la substance la plus importante est l'Épice. Elle ne se trouve que sur une seule planète, Arakis, connue aussi sous le nom de Dune. La famille Atréide vient à gouverner cette planète mais son ennemi, la dynastie des Harkonnen lui tend un piège dès son arrivée. Paul, le fils du Duc Leto Atréide se réfugie alors dans le désert avec sa mère et y rencontre les Fremens, peuple caché dans le désert attendant l'arrivée d'un Messie...
+          </div>            
+        </div>
+
+        <div class="aff" onclick="pop('Flag day','res_Flag')">
+            <img class="aff_img" src="Images/Flag day.jpg" /> 
+            <p class="titre">Flag Day</p>   
+            <div class="res" id="res_Flag">
+                Le père de Jennifer Vogel, John, était un homme plus grand que la vie. Lorsqu'elle était enfant, Jennifer s'émerveillait face à son énergie magnétisante et son talent à faire croire que la vie était une grande aventure. Il lui a tant appris sur l'amour et le bonheur, mais il s'avérait qu'il était également le plus grand faussaire de l'Histoire des États-Unis. Un portrait de famille, dont une jeune femme qui tente de surmonter son passé anéanti.
+            </div>
+        </div>
+
+        <div class="aff" onclick="pop('Oserez vous','res_Candyman')">
+            <img class="aff_img" src="Images/Oserez vous.jpg" /> 
+            <p class="titre">Candyman</p>    
+            <div class="res" id="res_Candyman">
+                Helen Lyle, jeune étudiante, découvre la terrifiante histoire de Candyman : un effroyable tueur qui apparaît chaque fois que l'on prononce son nom cinq fois devant un miroir. Son enquête sur cette mystérieuse légende la mènera tout droit vers des fables hantées alors même qu'une série de meurtres atroces commence... La légende pourrait-elle devenir réalité ?
+            </div>
+        </div>
+
+        <div class="aff" onclick="pop('Tout sest bien passé','res_Tout')">
+            <img class="aff_img" src="Images/Tout sest bien passé.jpg" /> 
+            <p class="titre">Tout s'est bien passé</p>   
+            <div class="res" id="res_Tout">
+                Emmanuèle est une romancière épanouie et accomplie, aussi bien dans sa vie privée que professionnelle. Un jour, elle est appelée en urgence : son père André, âgé de 85 ans, vient d'être hospitalisé après un accident vasculaire cérébral. Quand il se réveille, diminué et dépendant, cet homme curieux de tout et aimant passionnément la vie, demande à sa fille de l'aider à mourir. Malgré leurs différends passés, le père s'adresse à elle plutôt qu'à son autre fille, Pascale, qui le vit plutôt mal. 
+            </div> 
+        </div>
+
+        <div class="aff" onclick="pop('Stillwater','res_Stillwater')" >
+            <img class="aff_img" src="Images/Stillwater.jpg" /> 
+            <p class="titre">Stillwater</p>  
+            <div class="res" id="res_Stillwater">
+                Bill Baker est un ancien foreur de pétrole originaire de la ville américaine de Stillwater, en Oklahoma. Il vit de petits boulots depuis son licenciement. Il se rend à Marseille pour y retrouver sa fille Allison, condamnée à neuf années de prison pour le meurtre de sa petite-amie, qu'elle jure ne pas avoir commis. Sur place, l'Américain est seul et ne parle pas un mot de Français. Il va pouvoir compter sur l'aide de Virginie, une jeune comédienne de théâtre rencontrée par hasard dans un hôtel.
+            </div>
+        </div>
+
+        <div class="aff" onclick="pop('Storia di Vacanze','res_Vacanze')">
+            <img class="aff_img" src="Images/Storia di Vacanze.jpg" /> 
+            <p class="titre">Storia di Vacanze</p>  
+            <div class="res" id="res_Vacanze">
+                Dans une banlieue apparemment normale de Rome, un certain nombre de familles vivent de façon apparemment normale, unies par un sentiment de malaise de ne pas avoir atteint le statut social qu'elles pensaient mériter.
+            </div>
+        </div>
+
+        <div class="aff" onclick="pop('Nos plus belles années','res_Nos')">
+            <img class="aff_img" src="Images/Nos plus belles années.jpg" /> 
+            <p class="titre">Nos plus belles années</p>  
+            <div class="res" id="res_Nos">
+                Deux jeunes Américains se rencontrent sur les bancs de l'université en 1937. La jeune femme est militante communiste alors que lui est un tombeur sans conscience politique.
+            </div>
+        </div>
+
+        <div class="aff" onclick="pop('Mon légionnaire','res_Legionnaire')">
+            <img class="aff_img" src="Images/Mon légionnaire.jpg" /> 
+            <p class="titre">Mon légionnaire</p> 
+            <div class="res" id="res_Legionnaire">
+                Ils viennent de partout, ils ont désormais une chose en commun : la Légion Étrangère, leur nouvelle famille. Mon Légionnaire raconte leurs histoires : celle de ces femmes qui luttent pour garder leur amour bien vivant, celle de ces hommes qui se battent pour la France, celle de ces couples qui se construisent en territoire hostile.
+            </div> 
+        </div>
+
+        <div class="aff" onclick="pop('Cette musique ne joue pour personne','res_Musique')">
+            <img class="aff_img" src="Images/Cette musique ne joue pour personne.jpg" /> 
+            <p class="titre">Cette musique ne joue pour personne</p>  
+            <div class="res" id="res_Musique">
+                Dans une ville portuaire du nord de la France, des habitants isolés s'habituent peu à peu à la violence. Leur quotidien va cependant être soudainement bouleversé par l'art et l'amour. Jésus et Poussin doivent organiser une fête pour la fille adolescente de leur patron, patron qui traîne dans des affaires pas très claires. De son côté, Jacky, un autre homme de main, va découvrir le théâtre auprès d'une femme dont il tombe amoureux. Neptune, lui, se met à déclamer de la poésie
+            </div>
+        </div>
+
+        <div class="aff" onclick="pop('Tralala','res_Tralala')">
+            <img class="aff_img" src="Images/Tralala.jpg" /> 
+            <p class="titre">Tralala</p>  
+            <div class="res" id="res_Tralala">
+                Tralala, la quarantaine, chanteur dans les rues de Paris, croise un soir une jeune femme qui lui adresse un seul message avant de disparaitre : "Surtout ne soyez pas vous-même". Tralala a t-il rêvé ? Il quitte la capitale et finit par retrouver à Lourdes celle dont il est déjà amoureux. Elle ne se souvient plus de lui. Mais une émouvante sexagénaire croit reconnaître en Tralala son propre fils, Pat, disparu vingt ans avant aux Etats-Unis. Tralala décide d'endosser le "rôle". Il va se découvrir une nouvelle famille et trouver le génie qu'il n'a jamais eu.
+            </div>
+        </div>
+
+        <div class="aff" onclick="pop('Le dernier duel','res_Dernier')">
+            <img class="aff_img" src="Images/Le dernier duel.jpg" /> 
+            <p class="titre">Le dernier duel</p>  
+            <div class="res" id="res_Dernier">
+                Une femme soutient qu'elle a été violée par Jean de Carrouges, le meilleur ami de son mari. Or, lorsque personne ne croît, ses propos, son mari met son ami au défi dans un duel qui se trouvera à être le dernier de toute l'Histoire du pays à être sanctionné par la loi.
+            </div>
+        </div>
+        
+        <div class="aff" onclick="pop('Mourir peutt attendre','res_Mourir')">
+            <img class="aff_img" src="Images/Mourir peutt attendre.jpg" /> 
+            <p class="titre">Mourir peutt attendre</p> 
+            <div class="res" id="res_Mourir">
+                James Bond n'est plus en service et profite d'une vie tranquille en Jamaïque. Mais son répit est de courte durée car l'agent de la CIA Felix Leiter fait son retour pour lui demander son aide. Sa mission, qui est de secourir un scientifique kidnappé, va se révéler plus traître que prévu, et mener 007 sur la piste d'un méchant possédant une nouvelle technologie particulièrement dangereuse.
+            </div> 
+        </div>
+    </div>
+</div>
+   
+   
+    <script src="script.js"></script>
+    <footer>
+        <h1>jkjkj</h1>
+    </footer>
+
+</body>
+</html>
